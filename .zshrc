@@ -98,3 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias emacs="env TERM=xterm-256color emacs -nw"
+
+alias gtree="git log --graph --oneline --all --stat"
