@@ -97,6 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias emacs="env TERM=xterm-256color emacs -nw"
+alias emacs="env TERM=xterm-256color emacsclient -nw --create-frame --alternate-editor=\"\""
 
 alias gtree="git log --graph --oneline --all --stat"
+
+export EDITOR="emacs"
